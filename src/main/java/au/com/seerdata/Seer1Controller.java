@@ -11,7 +11,7 @@ class Seer1Controller {
 
     @RequestMapping(method = GET, path = "/")
     public String root() {
-        return "App running: Served from " + getClass().getName();
+        return "App running: CHANGED Served from " + getClass().getName();
     }
 
     @RequestMapping(method = GET, path = "hello/{name}")
